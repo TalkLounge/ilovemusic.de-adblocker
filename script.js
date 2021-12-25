@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ilovemusic.de disable ads
-// @version      1.0.0
+// @version      1.0.1
 // @description  Disables ads on ilovemusic.de
 // @author       TalkLounge (https://github.com/TalkLounge)
 // @namespace    https://github.com/TalkLounge/ilovemusic.de-disable-ads
@@ -12,9 +12,9 @@
 (function () {
     'use strict';
 
-    setInterval(function () {
-        if (ilr3 && ilr3.radio && ilr3.radio.preroll) {
-            ilr3.radio.preroll.prerollShouldPlay = 0;
+    if (ilr3 && ilr3.radio && ilr3.radio.preroll) {
+        ilr3.radio.preroll.shouldPlay = function() {
+            return 0;
         }
-    }, 1000);
+    }
 })();

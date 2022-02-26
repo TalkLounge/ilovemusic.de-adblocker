@@ -1,4 +1,4 @@
-# ilovemusic.de Disable Ads
-Tampermonkey Userscript Disabling ads on [ilovemusic.de](https://www.ilovemusic.de)
+# ilovemusic.de Adblocker
+Tampermonkey Userscript Adblocking for [ilovemusic.de](https://ilovemusic.de) that disables preroll ads
 
 [Install on Greasyfork](https://greasyfork.org/scripts/437559)

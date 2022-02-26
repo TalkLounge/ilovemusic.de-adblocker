@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         ilovemusic.de disable ads
-// @version      1.0.2
-// @description  Disables ads on ilovemusic.de
-// @author       TalkLounge (https://github.com/TalkLounge)
-// @namespace    https://github.com/TalkLounge/ilovemusic.de-disable-ads
-// @license      MIT
-// @match        https://www.ilovemusic.de/*
-// @grant        none
+// @name            ilovemusic.de Adblocker
+// @name:de         ilovemusic.de Adblocker
+// @version         1.0.3
+// @description     Adblocker for ilovemusic.de that disables preroll ads
+// @description:de  Adblocker für ilovemusic.de, der die Preroll-Werbungen deaktiviert
+// @author          TalkLounge (https://github.com/TalkLounge)
+// @namespace       https://github.com/TalkLounge/ilovemusic.de-adblocker
+// @license         MIT
+// @match           https://ilovemusic.de/*
+// @grant           none
 // ==/UserScript==
 
 (function () {
